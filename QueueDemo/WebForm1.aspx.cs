@@ -19,7 +19,7 @@ namespace QueueDemo
 
         }
 
-        //Button click event
+        //Button click events
         protected void btnPrintTokens_Click(object sender, EventArgs e)
         {
             Queue<int> tokenQueue = (Queue<int>)Session["TokenQueue"];
